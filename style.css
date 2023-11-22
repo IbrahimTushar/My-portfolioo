@@ -77,8 +77,8 @@ section
 .parents
 {
     display: flex;
-    padding-left: 10px;
-    margin: 20px 80px;
+    
+   
     
 }
 
@@ -87,5 +87,84 @@ section
     margin-left: 25px;
     font-size: xx-large;
     color: crimson;
+    
+}
+
+.shadow
+{
+    margin: 20px 20px;
+    box-shadow:10px 10px 10px 10px gray; 
+    padding: 10px 10px;
+   
+    
+
+}
+.Skill
+{
+    background-image: url(462751.jpeg)
+    
+    
+}
+
+.parents2
+{
+    display: flex;
+}
+
+.parents3
+{
+    display: flex;
+}
+#one
+{
+    border-top: 4px solid;
+    border-left: 4px solid;
+    border-image: linear-gradient(blue, white);
+    border-image-slice: 2;
+}
+
+#two
+{
+    border-top: 4px solid;
+    border-left: 4px solid;
+    border-image: linear-gradient(yellowgreen, white);
+    border-image-slice: 2;
+}
+
+#three
+{
+    border-top: 4px solid;
+    border-left: 4px solid;
+    border-image: linear-gradient(rgb(255, 0, 4), white);
+    border-image-slice: 2;
+}
+
+#four
+{
+    border-top: 4px solid;
+    border-left: 4px solid;
+    border-image: linear-gradient(rgb(255, 217, 0), white);
+    border-image-slice: 2;
+}
+
+#five
+{
+    border-top: 4px solid;
+    border-left: 4px solid;
+    border-image: linear-gradient(rgb(0, 217, 255), rgb(218, 219, 226));
+    border-image-slice: 2;
+}
+
+#six
+{
+    border-top: 4px solid;
+    border-left: 4px solid;
+    border-image: linear-gradient(rgb(26, 191, 105), rgb(255, 255, 255));
+    border-image-slice: 2;
+}
+
+footer p {
+    text-align: center;
+    font-size: smaller;
     
 }
