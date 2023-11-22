@@ -28,19 +28,22 @@ body
 
 section
 {
-    display: flex;
+   
+    margin-bottom: 100px;
 }
+
 
 .intro
 {
-    width: 50%;
+    width: 70%;
     padding-left: 10%;
+    
 }
 
 .intro img
 {
     width: 90%;
-    height: 70%;
+    height: 80%;
     padding-top: 15%;
 }
 
@@ -59,4 +62,30 @@ section
     background-image: linear-gradient(white,white);
     background-repeat: no-repeat;
     background-size: 500%;
+    display: flex;
+}
+
+.second-slide
+{
+    display: flex;
+    background-image: url(background-with-red-and-white-color-free-vector.jpeg);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+
+.parents
+{
+    display: flex;
+    padding-left: 10px;
+    margin: 20px 80px;
+    
+}
+
+.font
+{
+    margin-left: 25px;
+    font-size: xx-large;
+    color: crimson;
+    
 }
